@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+<!-- GOOGLE ANALYTICS (opcional): crie sua conta em analytics.google.com,
+     copie o ID (G-XXXXXXXXXX) e descomente o bloco abaixo.
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Amanda Filadelpho | Nutricionista</title>
+<meta name="description" content="Nutricionista com atendimento presencial em São Mateus e online, para cuidar da alimentação de forma leve, personalizada e alinhada à vida real.">
+<meta name="keywords" content="Nutrição,Nutricionista,são mateus">
+<meta name="author" content="Amanda Filadelpho">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#25851f">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Troque pelo endereço real do seu site quando publicar -->
+<link rel="canonical" href="https://seudominio.com.br/">
+
+<!-- Prévia ao compartilhar no WhatsApp/Instagram -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Amanda Filadelpho | Nutricionista">
+<meta property="og:description" content="•	Estratégia para alcançar. Leveza para manter.">
+<meta property="og:url" content="https://seudominio.com.br/">
+<meta property="og:image" content="https://seudominio.com.br/images/imagem_nova.jpeg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme-marrom">
+<a class="skip-link" href="#conteudo-principal">Ir para o conteúdo</a>
+
+<!-- WHATSAPP FLUTUANTE (o número vem do js/config.js) -->
+<a class="wa-float" href="#" data-wa target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- MENU MOBILE -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose" aria-label="Fechar menu">✕</button>
+  <a href="#sobre" onclick="closeMobile()">Sobre</a>
+  <a href="#para-voce" onclick="closeMobile()">Para você</a>
+  <a href="#processo" onclick="closeMobile()">Serviços</a>
+  <a href="#planos" onclick="closeMobile()">Planos</a>
+  <a href="https://www.instagram.com/nutri.amandafiladelpho/"
+   target="_blank" 
+   onclick="closeMobile()">Instagram</a>
+  <a href="#contato" onclick="closeMobile()">Contato</a>
+  <a href="#contato" class="mobile-cta" onclick="closeMobile()">Enviar mensagem</a>
+</div>
+
+<!-- NAVEGAÇÃO -->
+<div class="nav-shield" aria-hidden="true"></div>
+<nav id="mainNav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo" aria-label="Início">
+      <span class="logo-text"><span class="logo-name" data-cfg="primeiroNome">Amanda</span> <em data-cfg="sobrenome">Filadelpho</em></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#sobre" data-nav="sobre">Sobre</a></li>
+      <li><a href="#para-voce" data-nav="para-voce">Para você</a></li>
+      <li><a href="#processo" data-nav="processo">Serviços</a></li>
+      <li><a href="#planos" data-nav="planos">Planos</a></li>
+      <!-- <li><a href="#material" data-nav="material">Material</a></li> -->
+      <li><a href="#contato" data-nav="contato">Contato</a></li>
+      <li><a href="#contato" class="nav-cta">Quero Agendar</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main id="conteudo-principal">
+
+<!-- ========== 1. TOPO (HERO) ========== -->
+<section class="hero" id="hero" aria-label="Apresentação">
+  <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+  <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+  <div class="hero-bg-text">NUTRIÇÃO</div><!-- palavra grande ao fundo, ex.: NUTRI, LEGAL, PSI -->
+  <div class="hero-left">
+    <h1 class="hero-headline">
+      •	Estratégia para alcançar. <br>
+      <span class="hero-accent">Leveza para manter.</span>
+    </h1>
+    <div class="hero-line"></div>
+    <p class="hero-sub">
+      Um acompanhamento nutricional para cuidar da sua saúde, alcançar seus objetivos e transformar a alimentação em uma parte leve e possível da sua rotina, com estratégias baseadas em ciência, personalizadas para você e pensadas para resultados sustentáveis.
+    </p>
+    <div class="hero-actions">
+      <a href="#" data-wa class="btn-gold" target="_blank" rel="noopener noreferrer">Agendar Consulta</a>
+      <a href="#processo" class="btn-outline">O que você recebe</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-photo-wrap">
+      <!-- FOTO 1: images/foto-principal.jpg  (vertical, ~800 x 1000 px) -->
+      <img src="images/imagem_nova.jpeg" alt="Amanda Filadelpho. Nutricionista. São Mateus/ES" class="hero-img" id="heroImg" width="800" height="1000" fetchpriority="high">
+      <div class="hero-overlay"></div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span>Role para baixo</span>
+  </div>
+</section>
+
+<!-- ========== 2. FAIXA ROLANTE ========== -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Emagrecimento</span><span class="marquee-dot">✦</span>
+    <span>Saúde</span><span class="marquee-dot">✦</span>
+    <span>Hipertrofia</span><span class="marquee-dot">✦</span>
+    <span>Presencial São Mateus</span><span class="marquee-dot">✦</span>
+    <span>Consulta Online</span><span class="marquee-dot">✦</span>
+    <span>Registro CRN4-26103690</span><span class="marquee-dot">✦</span>
+    <span>Emagrecimento</span><span class="marquee-dot">✦</span>
+    <span>Saúde</span><span class="marquee-dot">✦</span>
+    <span>Hipertrofia</span><span class="marquee-dot">✦</span>
+    <span>Presencial São Mateus</span><span class="marquee-dot">✦</span>
+    <span>Consulta Online</span><span class="marquee-dot">✦</span>
+    <span>Registro CRN4-26103690</span><span class="marquee-dot">✦</span>
+  </div>
+</div>
+
+<!-- ========== 3. SOBRE MIM ========== -->
+<section class="about" id="sobre" aria-labelledby="titulo-sobre">
+  <div class="about-imgs reveal-left">
+    <!-- FOTO 2: images/foto-sobre.jpg  (vertical, ~700 x 900 px) -->
+    <img src="images/imagem2_nova.jpg" alt="" class="about-img-main" width="700" height="900" loading="lazy">
+    <div class="about-img-overlay"></div>
+  </div>
+  <div class="about-content reveal-right">
+    <p class="s-tag reveal">Sobre mim</p>
+    <h2 class="s-title dark reveal" id="titulo-sobre">Olá, sou <em data-cfg="primeiroNome">Amanda</em><br><span data-cfg="sobrenome">Sobrenome</span></h2>
+    <div class="about-text">
+      <p class="reveal reveal-d1">A nutrição sempre despertou meu interesse pela possibilidade de cuidar da saúde, olhando para cada pessoa em sua singularidade.<strong> Sou nutricionista formada pela Universidade Federal do Espírito Santo (UFES) e pós-graduanda em Doenças Crônicas e Cardiovasculares.</strong></p>
+      <p class="reveal reveal-d2">Ao longo da minha formação, vivenciei diferentes áreas da nutrição, o que ampliou meu olhar sobre a alimentação e sobre as necessidades específicas de cada pessoa.</p>
+      <p class="reveal reveal-d3">Hoje, busco unir o conhecimento científico à prática clínica, respeitando a individualidade de cada paciente e construindo, juntos, uma relação mais leve, consciente e duradoura com a alimentação.</p>
+    </div>
+    <div class="creds reveal reveal-d3">
+      <div class="cred"><div class="cred-dot"></div><strong>CRN4-26103690</strong>— Registro ativo no Conselho Nutricionistas</div>
+      <div class="cred"><div class="cred-dot"></div>Saúde, emagrecimento e hipertrofia</div>
+      <div class="cred"><div class="cred-dot"></div>Consultas presencias em<strong>São Mateus/ES</strong>e online</div>
+      <div class="cred"><div class="cred-dot"></div>Acredito que uma alimentação equilibrada deve acompanhar, e não limitar, a sua vida</div>
+    </div>
+    <div class="about-cta reveal reveal-d4">
+      <a href="#" data-wa class="btn-gold" style="display:inline-block;margin-top:1rem" target="_blank" rel="noopener noreferrer">Quero me consultar</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 4. PARA QUEM É ========== -->
+<section class="for-you" id="para-voce" aria-labelledby="titulo-para-voce">
+  <div class="for-you-head">
+    <p class="s-tag reveal">Para quem é</p>
+    <h2 class="s-title dark reveal" id="titulo-para-voce">Esse atendimento é pra você,<br><em>se…</em></h2>
+  </div>
+  <div class="for-you-grid">
+    <article class="for-you-card reveal-scale">
+      <div class="for-you-num">01</div>
+      <h3 class="for-you-title">Quer emagrecer,mas não quer viver de dieta</h3>
+      <p class="for-you-desc">Você quer resultados, mas também quer conseguir sair para jantar, comemorar, viajar e aproveitar a vida.</p>
+    </article>
+    <article class="for-you-card reveal-scale reveal-d1">
+      <div class="for-you-num">02</div>
+      <h3 class="for-you-title">Quer melhorar sua composição corporal</h3>
+      <p class="for-you-desc">Busca uma alimentação que acompanhe seus treinos e seus objetivos de hipertrofia(ganho de massa muscular).</p>
+    </article>
+    <article class="for-you-card reveal-scale reveal-d2">
+      <div class="for-you-num">03</div>
+      <h3 class="for-you-title">Sente que sabe o que deveria fazer, mas não consegue organizar sua rotina.</h3>
+      <p class="for-you-desc">Você não precisa de mais uma lista de alimentos proibidos. Precisa de uma estratégia que funcione para a sua realidade.</p>
+    </article>
+    <article class="for-you-card reveal-scale reveal-d3">
+      <div class="for-you-num">04</div>
+      <h3 class="for-you-title">Quer cuidar da saúde de forma consistente.</h3>
+      <p class="for-you-desc">Porque alimentação saudável não precisa ser perfeita para fazer diferença.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ========== 5. O QUE VOCÊ RECEBE ========== -->
+<section class="process" id="processo" aria-labelledby="titulo-processo">
+  <div class="process-deco"></div>
+  <div class="process-head">
+    <div>
+      <p class="s-tag reveal">Atendimento</p>
+      <h2 class="s-title dark reveal" id="titulo-processo">O que você irá<br><em>receber?</em></h2>
+    </div>
+  </div>
+  <div class="benefits-wall-wrap">
+    <div class="steps-grid steps-grid--benefits" role="list" aria-label="O que você irá receber">
+      <article class="benefit-card benefit-card--compact reveal" role="listitem">
+        <span class="benefit-num">01</span>
+        <div class="benefit-icon">✨</div><!-- troque o emoji se quiser -->
+        <h3 class="benefit-title">Plano alimentar individualizado</h3>
+      </article>
+      <article class="benefit-card benefit-card--compact reveal reveal-d1" role="listitem">
+        <span class="benefit-num">02</span>
+        <div class="benefit-icon">🔎</div>
+        <h3 class="benefit-title">Avaliação física </h3>
+      </article>
+      <article class="benefit-card benefit-card--compact reveal reveal-d2" role="listitem">
+        <span class="benefit-num">03</span>
+        <div class="benefit-icon">📋</div>
+        <h3 class="benefit-title">Avaliação de exames</h3>
+      </article>
+      <article class="benefit-card benefit-card--compact reveal reveal-d3" role="listitem">
+        <span class="benefit-num">04</span>
+        <div class="benefit-icon">📱</div>
+        <h3 class="benefit-title">Acompanhamento pelo aplicativo</h3>
+      </article>
+      <article class="benefit-card benefit-card--compact reveal" role="listitem">
+        <span class="benefit-num">05</span>
+        <div class="benefit-icon">🎧</div>
+        <h3 class="benefit-title">Suporte durante o acompanhamento</h3>
+      </article>
+      <article class="benefit-card benefit-card--compact reveal reveal-d1" role="listitem">
+        <span class="benefit-num">06</span>
+        <div class="benefit-icon">💬</div>
+        <h3 class="benefit-title">Materiais de apoio</h3>
+      </article>
+    </div>
+  </div>
+  <p class="benefits-scroll-hint" aria-hidden="true">Deslize para ver mais →</p>
+</section>
+
+<!-- ========== 6. PLANOS ========== -->
+<section class="plans" id="planos" aria-labelledby="titulo-planos">
+  <div class="plans-wrap">
+    <div class="plans-head">
+      <p class="s-tag reveal">Planos</p>
+      <h2 class="s-title dark reveal" id="titulo-planos">Escolha o plano que<br>melhor se adapta à <em>sua realidade</em></h2>
+    </div>
+    <div class="plans-grid">
+
+      <!-- Plano 1 -->
+      <article class="plan-card reveal-scale">
+        <span class="plan-tier" aria-hidden="true">01</span>
+        <div class="plan-head">
+          <h3 class="plan-name">Consulta avulsa</h3>
+        </div>
+        <div class="plan-stats" aria-label="Resumo do plano">
+          <div class="plan-stat"><span class="plan-stat-n">1</span><span class="plan-stat-l">Consulta</span></div>
+          <div class="plan-stat"><span class="plan-stat-n">30</span><span class="plan-stat-l">Dias de acompanhamento</span></div>
+          <div class="plan-stat"><span class="plan-stat-n">App</span><span class="plan-stat-l">WebDiet</span></div>
+        </div>
+        <div class="plan-desc">
+          <p class="plan-text">Uma consulta que inclui plano alimentar personalizado, avaliação física, análise de exames, orientação sobre suplementação, quando necessária e acesso ao aplicativo WebDiet, além de suporte pelo WhatsApp durante 30 dias</p>
+          <div class="hero-line-plan"></div>
+          <p class="plan-text plan-text--ideal">Para quem busca um ponto de partida para melhorar a alimentação, compreender melhor suas necessidades e fazer escolhas mais conscientes no dia a dia.</p>
+        </div>
+        <a href="#" data-wa="Olá {nome}! Tenho interesse no plano 1." class="plan-cta plan-cta--ghost" target="_blank" rel="noopener noreferrer">Quero agendar</a>
+      </article>
+
+      <!-- Plano 2 (destaque) -->
+      <article class="plan-card plan-card--featured reveal-scale reveal-d1">
+        <div class="plan-ribbon">Mais escolhido</div>
+        <span class="plan-tier" aria-hidden="true">02</span>
+        <div class="plan-head">
+          <h3 class="plan-name">Consulta + Acompanhamento</h3>
+        </div>
+        <div class="plan-stats" aria-label="Resumo do plano">
+          <div class="plan-stat"><span class="plan-stat-n">2</span><span class="plan-stat-l">Consultas</span></div>
+          <div class="plan-stat"><span class="plan-stat-n">60</span><span class="plan-stat-l">Dias de acompanhamento</span></div>
+          <div class="plan-stat"><span class="plan-stat-n">Suporte + App</span><span class="plan-stat-l">WebDiet</span></div>
+        </div>
+        <div class="plan-desc">
+          <p class="plan-text">Um acompanhamento pensado para quem quer iniciar com segurança e ter um retorno para ajustar o processo. Inclui consulta inicial completa: plano alimentar personalizado, avaliação física, análise de exames e orientação sobre suplementação, quando necessária, além de retorno entre 30 e 45 dias para reavaliação.</p>
+          <div class="hero-line-plan"></div>
+          <p class="plan-text">Para quem já deu o primeiro passo e quer suporte para manter a consistência com mais tranquilidade. Acesso ao aplicativo WebDiet e suporte via WhatsApp durante todo o período.</p>
+        </div>
+        <a href="#" data-wa="Olá {nome}! Tenho interesse no plano 2." class="plan-cta" target="_blank" rel="noopener noreferrer">Quero agendar</a>
+      </article>
+
+      <!-- Plano 3 -->
+      <article class="plan-card reveal-scale reveal-d2">
+        <span class="plan-tier" aria-hidden="true">03</span>
+        <div class="plan-head">
+          <h3 class="plan-name">Combo Dupla — Consulta Avulsa</h3>
+        </div>
+        <div class="plan-stats" aria-label="Resumo do plano">
+          <div class="plan-stat"><span class="plan-stat-n">1</span><span class="plan-stat-l">Consulta</span></div>
+          <div class="plan-stat"><span class="plan-stat-n">30</span><span class="plan-stat-l">Dias de acompanhamento</span></div>
+          <div class="plan-stat"><span class="plan-stat-n">App</span><span class="plan-stat-l">WebDiet</span></div>
+        </div>
+        <div class="plan-desc">
+          <p class="plan-text"> Uma consulta completa para duas pessoas, com atendimento individualizado para cada uma. Inclui plano alimentar personalizado, avaliação física, análise de exames, orientação sobre suplementação, quando necessária, acesso ao aplicativo WebDiet e suporte via WhatsApp por 30 dias.</p>
+          <div class="hero-line-plan"></div>
+          <p class="plan-text">Para quem quer cuidar da alimentação ao lado de alguém, compartilhando esse momento e mantendo a motivação ao longo do processo.</p>
+        </div>
+        <a href="#" data-wa="Olá {nome}! Tenho interesse no plano 3." class="plan-cta plan-cta--ghost" target="_blank" rel="noopener noreferrer">Quero agendar</a>
+      </article>
+      <!-- Plano 4 -->
+      <article class="plan-card reveal-scale reveal-d3">
+        <span class="plan-tier" aria-hidden="true">04</span>
+        <div class="plan-head">
+          <h3 class="plan-name">Combo Dupla — Consulta Avulsa</h3>
+        </div>
+        <div class="plan-stats" aria-label="Resumo do plano">
+          <div class="plan-stat"><span class="plan-stat-n">2</span><span class="plan-stat-l">Consulta</span></div>
+          <div class="plan-stat"><span class="plan-stat-n">60</span><span class="plan-stat-l">Dias de acompanhamento</span></div>
+          <div class="plan-stat"><span class="plan-stat-n">App</span><span class="plan-stat-l">WebDiet</span></div>
+        </div>
+        <div class="plan-desc">
+          <p class="plan-text"> Consulta + Acompanhamento Acompanhamento nutricional para duas pessoas, com consulta inicial e retorno entre 30 e 45 dias para cada uma. Inclui plano alimentar personalizado, avaliação física, análise de exames, orientação sobre suplementação, quando necessária, acesso ao aplicativo WebDiet e suporte via WhatsApp durante todo o período.</p>
+          <div class="hero-line-plan"></div>  
+          <p class="plan-text">Para quem quer compartilhar o cuidado com a alimentação, acompanhando a evolução e ajustando o planejamento ao longo do caminho.</p>
+        </div>
+        <a href="#" data-wa="Olá {nome}! Tenho interesse no plano 3." class="plan-cta plan-cta--ghost" target="_blank" rel="noopener noreferrer">Quero agendar</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 9. CONTATO ========== -->
+<section class="cta-strip" id="contato" aria-labelledby="titulo-contato">
+  <div class="contact-inner">
+    <div class="contact-head reveal">
+      <p class="s-tag">Comece hoje</p>
+      <h2 class="s-title" id="titulo-contato">Sua tranformação começa com uma<br><em>decisão simples.</em></h2>
+      <p class="cta-sub">Seu objetivo importa. Sua rotina também. Agende sua consulta presencial em <span data-cfg="cidade">Sua Cidade/UF</span> ou online.</p>
+    </div>
+    <div class="contact-locate reveal-scale">
+      <a href="#" data-wa="Olá {nome}! Quero agendar minha consulta!" class="btn-wa btn-wa--cta" target="_blank" rel="noopener noreferrer">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Me chame no WhatsApp
+      </a>
+      <address class="contact-address">
+        <strong data-cfg="nomeCompleto">Amanda Sobrenome</strong>
+        <p>Nutri Bem, Av. José Tozze, 1286 - Ideal,  São Mateus - ES, 29933-565</p>
+        <a href="#" data-link="email"><span data-cfg="email">contato@seudominio.com.br</span></a> ·
+        <span data-cfg="telefone">(00) 00000-0000</span>
+      </address>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- RODAPÉ -->
+<footer>
+  <div class="footer-logo">
+    <a href="#hero" class="nav-logo" aria-label="Voltar ao início">
+      <span class="logo-text"><span class="logo-name" data-cfg="primeiroNome">Amanda</span> <em data-cfg="sobrenome">Filadelpho</em></span>
+    </a>
+  </div>
+  <p>© <span data-cfg="ano">2026</span> <span data-cfg="nomeCompleto">Amanda Sobrenome</span> · <span data-cfg="profissao">Sua Profissão</span> · <span data-cfg="registro">REGISTRO CRN4-26103690</span> · Todos os direitos reservados</p>
+  <ul class="footer-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#para-voce">Para você</a></li>
+    <li><a href="#planos">Planos</a></li>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="https://www.instagram.com/nutri.amandafiladelpho/"
+    target="_blank">Instagram</a></li>
+  </ul>
+</footer>
+
+<!-- config.js precisa vir ANTES do script.js -->
+<script src="js/config.js"></script>
+<script src="js/script.js" defer></script>
+</body>
+</html>
