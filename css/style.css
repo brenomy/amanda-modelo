@@ -109,6 +109,9 @@ nav{
   max-width:1400px;height:var(--nav-h);margin:0 auto;
   padding:0 clamp(1rem,3vw,3rem);
   display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  background: #d7d4cca7;
+  /* #d7d4cc */
+  
 }
 .nav-logo{
   display:flex;align-items:center;flex-shrink:1;min-width:0;
@@ -228,7 +231,7 @@ nav{
 /* HERO */
 .hero{
   min-height:100vh;min-height:100dvh;
-  background:var(--gradient-hero);
+  background-color:#e2dfd899;
   display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);
   align-items:start;
   position:relative;overflow:hidden;
