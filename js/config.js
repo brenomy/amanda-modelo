@@ -8,12 +8,12 @@ const SITE = {
   primeiroNome: "Amanda",              // aparece no logo (normal)
   sobrenome:    "Filadelpho",           // aparece no logo (em itálico dourado)
   profissao:    "Nutricionista",       // ex.: Nutricionista, Psicóloga, Advogada...
-  registro:     "REGISTRO CRN4-26103690",      // ex.: CRN 00000, CRP 00/00000, OAB/SC 0000 (deixe "" se não tiver)
+  registro:     " CRN4-26103690",      // ex.: CRN 00000, CRP 00/00000, OAB/SC 0000 (deixe "" se não tiver)
 
   // --- Contato ----------------------------------------------
   // WhatsApp: código do país + DDD + número, SÓ NÚMEROS. Ex.: 5511999999999
   whatsapp:  "5527997963331",
-  telefoneExibido: "(27) 27997963331",  // como o telefone aparece escrito
+  telefoneExibido: "(27) 997963331",  // como o telefone aparece escrito
   email:     "nutri.amandafiladelpho@gmail.com",
   instagram: "nutri.amandafiladelpho",           // só o usuário, sem @ e sem link
 

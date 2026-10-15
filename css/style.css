@@ -296,11 +296,17 @@ nav{
   opacity:0;animation:lineGrow .8s var(--ease-out) .45s forwards, fadeUp .9s .45s forwards;
   transform-origin:left;
 }
-.hero-sub{
+.hero-sub,
+.hero-sub2{
   font-size:clamp(.88rem,1.8vw,.98rem);font-weight:400;color:var(--muted);
-  line-height:1.85;max-width:32rem;margin-bottom:2rem;
+  line-height:1.85;max-width:32rem;
   opacity:0;animation:fadeUp .9s var(--ease-out) .55s forwards;
 }
+.hero-sub{margin-bottom:.6rem}    /* espaço entre os dois parágrafos */
+.hero-sub2{margin-bottom:3.5rem}  /* espaço até os botões */
+
+.hero-actions{margin-top: -2rem;}
+
 .hero-actions{
   display:flex;gap:1rem;align-items:center;flex-wrap:wrap;
   opacity:0;animation:fadeUp .9s var(--ease-out) .7s forwards;
@@ -671,6 +677,11 @@ section{padding:clamp(4rem,8vw,7rem) clamp(1.25rem,5vw,6rem)}
 .benefit-card:hover{
   transform:translateY(-8px);box-shadow:var(--shadow-gold);
   border-color:rgba(154,123,90,0.35);
+}
+.benefit-icon img{
+  width:26px;
+  height:26px;
+  object-fit:contain;
 }
 .benefit-icon{
   width:52px;height:52px;border-radius:14px;
